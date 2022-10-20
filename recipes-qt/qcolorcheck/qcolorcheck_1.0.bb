@@ -8,7 +8,7 @@ DEPENDS += "qtbase"
 PR = "r1"
 
 SRCREV = "${AUTOREV}"
-SRC_URI = "git://github.com/scottellis/qcolorcheck.git"
+SRC_URI = "git://github.com/scottellis/qcolorcheck.git;protocol=http"
 
 S = "${WORKDIR}/git"
 

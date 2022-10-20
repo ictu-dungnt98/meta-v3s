@@ -8,7 +8,7 @@ DEPENDS += "qtbase"
 PR = "r3"
 
 SRCREV = "${AUTOREV}"
-SRC_URI = "git://github.com/scottellis/tspress.git"
+SRC_URI = "git://github.com/scottellis/tspress.git;protocol=http"
 
 S = "${WORKDIR}/git"
 

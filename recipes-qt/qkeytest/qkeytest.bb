@@ -8,7 +8,7 @@ DEPENDS += "qtbase"
 PR = "r1"
 
 SRCREV = "${AUTOREV}"
-SRC_URI = "git://github.com/scottellis/qkeytest.git"
+SRC_URI = "git://github.com/scottellis/qkeytest.git;protocol=http"
 
 S = "${WORKDIR}/git"
 
